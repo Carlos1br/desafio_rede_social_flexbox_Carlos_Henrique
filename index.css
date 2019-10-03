@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+    background-color: #F2F2F2;
+    
+    
+}
+.main{
+    width: 80vw;
+    height: 95vh;
+    background-color: #f2f2f2;
+    border: 1px solid #BDBDBD;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.item{
+    width: 480px;
+    height: 260px;
+    background-color: #FFF;
+    border: 1px solid #BDBDBD;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.item img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.info{
+    width: 80%;
+    height: 100px;
+    
+    
+}
+
+.contact{
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.contact img{
+    width: 40px;
+    position: relative;
+    top: -75px;
+
+    
+}
+
+button{
+    background-color: #808080;
+    color: #FFF;
+    padding: 10px;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #808080;
+    width: 120px;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
